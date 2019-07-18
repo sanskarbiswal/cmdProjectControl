@@ -15,3 +15,13 @@ python3 -m pip install Github
   
   > ls
 
+## Method to access commands from cmd
+
+1. Save the files of the repo, in the Projects folder
+2. Goto *Advanced Environment Settings* and add the path of the project folder to the PATH
+3. Restart computer
+
+# Note
+  > The codes given here are tested on Windows 10 platform only. 
+  
+  > The default project folder here is F-drive. To make changes, the drive location needs to be changes in all files. 
