@@ -9,7 +9,9 @@ This command, creates a folder, then opens a new github repo and finally opens V
 python3 -m pip install Github 
 
 ## Commands Included
-> initProject
-> rmvProject
-> ls
+  > initProject
+  
+  > rmvProject
+  
+  > ls
 
