@@ -1,8 +1,8 @@
 import os, sys
 from github import Github
 
-uName = "sanskarbiswal"
-pwd = "Dante1234@"
+uName = "username"
+pwd = "password"
 pDir = sys.argv[1]
 # Open Github and Create Repository
 user = Github(uName, pwd).get_user()
