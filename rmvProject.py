@@ -6,9 +6,9 @@ pDir = str(sys.argv[1])
 ch = input("Proceed with scrapping Project Folder " +pDir+" (y/n) : ")
 
 if (ch=="Y" or ch=="y"):
-    if pDir in os.listdir("F:/"): # Since F-Drive is the Project Directory
+    if pDir in os.listdir("F:/"): # Since F-Drive is the Project Directory. Change if alternate drive is being used by you
         print("Project Directory Found... Starting Clean Up...")
-        user = Github("sanskarbiswal", "Dante1234@").get_user()
+        user = Github("username", "password").get_user() # add usn and pwd of your account to use
         repo = user.get_repo(pDir)
         repo.delete()
         os.system("rmdir /s "+pDir)
